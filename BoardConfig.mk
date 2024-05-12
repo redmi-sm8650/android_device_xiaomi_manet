@@ -112,7 +112,8 @@ BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX := 1
 BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/config/vintf/manifest_pineapple.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/config/vintf/framework_manifest.xml
 
 # Inherit the proprietary files
 include vendor/xiaomi/manet/BoardConfigVendor.mk
