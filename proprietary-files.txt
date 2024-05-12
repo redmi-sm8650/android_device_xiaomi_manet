@@ -1192,7 +1192,6 @@ vendor/firmware/CAMERA_ICP_170.elf
 
 # CAS
 vendor/bin/hw/android.hardware.cas-service.example
-vendor/etc/vintf/manifest/android.hardware.cas-service.xml
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -1694,7 +1693,6 @@ vendor/apex/com.google.android.widevine.nonupdatable.apex
 vendor/bin/hw/android.hardware.drm-service.clearkey
 vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
-vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
 vendor/etc/vintf/manifest/android.hardware.drm-service.xml
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
@@ -1824,7 +1822,6 @@ vendor/bin/hw/vendor.xiaomi.hardware.micharge-service
 vendor/bin/batterysecret
 vendor/etc/init/android.hardware.health-service.qti.rc
 vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc
-vendor/etc/vintf/manifest/android.hardware.health-service.qti.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge.xml
 vendor/lib64/vendor.xiaomi.hardware.micharge-V1-ndk.so
 
@@ -1846,7 +1843,6 @@ vendor/lib64/liboffloadhal.so
 odm/lib64/hw/consumerir.qcom.so
 vendor/bin/hw/android.hardware.ir-service.example
 vendor/etc/init/android.hardware.ir-service.example.rc
-vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -2579,7 +2575,6 @@ vendor/bin/sensors.qti
 vendor/bin/sscrpcd
 vendor/etc/init/android.hardware.sensors-service-multihal.rc
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate-service.rc
-vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.sensorscalibrate.xml
 vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/lib64/libhidparser.so
@@ -3578,7 +3573,6 @@ odm/firmware/9_ringTone4_P_RTP.bin
 # Weaver
 vendor/bin/hw/android.hardware.weaver-service.nxp
 vendor/etc/init/android.hardware.weaver-service.nxp.rc
-vendor/etc/vintf/manifest/android.hardware.weaver-service.nxp.xml
 vendor/lib64/ese_weaver.so
 
 # Wi-Fi
@@ -3595,7 +3589,6 @@ vendor/bin/wpa_cli
 vendor/etc/init/android.hardware.wifi-service.rc
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.wifi-service.xml
 vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
 vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
 vendor/lib64/libcert_parse.wpa_s.so
@@ -4233,7 +4226,6 @@ vendor/etc/vintf/manifest/AHBF-V3-service.xml
 vendor/etc/vintf/manifest/ImsRtpService-aidl.xml
 vendor/etc/vintf/manifest/atfwd-saidl.xml
 vendor/etc/vintf/manifest/blackbox.xml
-vendor/etc/vintf/manifest/bluetooth_audio.xml
 vendor/etc/vintf/manifest/boot-service.qti.xml
 vendor/etc/vintf/manifest/bttpi-saidl.xml
 vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
