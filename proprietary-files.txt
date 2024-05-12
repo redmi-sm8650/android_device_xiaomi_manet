@@ -4278,7 +4278,6 @@ vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys.core.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.mitrustedui.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.quickcamera.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.modem.qms.xml
-vendor/etc/vintf/manifest_pineapple.xml
 vendor/etc/1-SN1X0_SPC.txt
 vendor/etc/Hapticsconfig.xml
 vendor/etc/IPACM_Filter_cfg.xml
